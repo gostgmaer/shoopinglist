@@ -10,6 +10,8 @@ import { RecipeDetailsComponent } from './recipes/recipe-details/recipe-details.
 import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-edit.component';
 import { SharedComponent } from './shared/shared.component';
+import { RecipeItemsComponent } from './recipes/recipe-list/recipe-items/recipe-items.component';
+import { DefalutComponent } from './defalut/defalut.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { SharedComponent } from './shared/shared.component';
     RecipeDetailsComponent,
     ShoppingListComponent,
     ShoppingEditComponent,
-    SharedComponent
+    SharedComponent,
+    RecipeItemsComponent,
+    DefalutComponent
   ],
   imports: [
     BrowserModule,
