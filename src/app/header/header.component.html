@@ -3,15 +3,8 @@
   <!-- Container wrapper -->
   <div class="container-fluid">
     <!-- Toggle button -->
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-mdb-toggle="collapse"
-      data-mdb-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
+    <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <i class="fas fa-bars"></i>
     </button>
 
@@ -19,7 +12,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <!-- Navbar brand -->
       <a class="navbar-brand mt-2 mt-lg-0 h2" href="#"> Recipe Book
-     <!--    <img
+        <!--    <img
           src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp"
           height="15"
           alt="MDB Logo"
@@ -35,7 +28,7 @@
           <a class="nav-link" href="#">Shooping List</a>
         </li>
         <li class="nav-item  ">
-          <a class="nav-link disabled " hidden  href="#">Projects</a>
+          <a class="nav-link disabled " hidden href="#">Projects</a>
         </li>
       </ul>
       <!-- Left links -->
@@ -50,21 +43,12 @@
       </a>
 
       <!-- Notifications -->
-      <a
-        class="text-reset me-3 dropdown-toggle hidden-arrow"
-        href="#"
-        id="navbarDropdownMenuLink"
-        role="button"
-        data-mdb-toggle="dropdown"
-        aria-expanded="false"
-      >
+      <a class="text-reset me-3 dropdown-toggle hidden-arrow" href="#" id="navbarDropdownMenuLink" role="button"
+        data-mdb-toggle="dropdown" aria-expanded="false">
         <i class="fas fa-bell"></i>
         <span class="badge rounded-pill badge-notification bg-danger">1</span>
       </a>
-      <ul
-        class="dropdown-menu dropdown-menu-end"
-        aria-labelledby="navbarDropdownMenuLink"
-      >
+      <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
         <li>
           <a class="dropdown-item" href="#">Some news</a>
         </li>
@@ -77,36 +61,41 @@
       </ul>
 
       <!-- Avatar -->
-      <a
-        class="dropdown-toggle d-flex align-items-center hidden-arrow text-white text-decoration-none"
-        href="#"
-        id="navbarDropdownMenuLink"
-        role="button"
-        data-mdb-toggle="dropdown"
-        aria-expanded="false"
-      >Manage
-       <!--  <img
+ <!--      <a class="dropdown-toggle d-flex align-items-center hidden-arrow text-white text-decoration-none" href="#"
+        id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown" aria-expanded="false">Manage
+          <img
           src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
           class="rounded-circle"
           height="25"
           alt="Black and White Portrait of a Man"
           loading="lazy"
-        /> -->
-      </a>
-      <ul
-        class="dropdown-menu dropdown-menu-end"
-        aria-labelledby="navbarDropdownMenuLink"
-      >
-        <li>
-          <a class="dropdown-item" href="#">My profile</a>
-        </li>
-        <li>
-          <a class="dropdown-item" href="#">Settings</a>
-        </li>
-        <li>
-          <a class="dropdown-item" href="#">Logout</a>
-        </li>
-      </ul>
+        /> 
+        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+          <li>
+            <a class="dropdown-item" href="#">My profile</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">Settings</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">Logout</a>
+          </li>
+        </ul>
+      </a> -->
+
+
+
+      <div class="btn-group" role="group" aria-label="Button group">
+
+        <span id="my-dropdown" class="align-items-center hidden-arrow text-white text-decoration-none dropdown-toggle calaadad" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">Manage</span>
+        <ul class="dropdown-menu custom-ulclass" aria-labelledby="my-dropdown">
+            <li> <a class="dropdown-item active" href="#">My profile</a> </li>
+            <li> <a class="dropdown-item active" href="#">Settings</a> </li>
+            <li> <a class="dropdown-item active" href="#">Logout</a> </li>
+        </ul>
+    </div>
+
     </div>
     <!-- Right elements -->
   </div>
